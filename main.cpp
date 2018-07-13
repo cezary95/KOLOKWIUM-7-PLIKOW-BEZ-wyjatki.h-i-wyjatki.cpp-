@@ -1,21 +1,36 @@
 #include <iostream>
-
+#include "cKomputer.h"
 using namespace std;
 
+class cKomputer
+{
+ 
+public:
+	string nazwa;
+	int wiek;
+	double cena;
+ 
+	cKomputer();
+	cKomputer(string nazwa, int wiek, double cena);
+	void setNazwa(string k);
+	void setCena(double c);
+	void setWiek(int w);
+	string GetNazwa();
+	double GetCena();
+	int GetWiek();
+	void Wypisz();
+	~cKomputer();
+};
+ 
 int main() {
 
-	package klasy
-	public class Klasy {
-		public static void main (String [] args) {
-			class Komputer{
-				String nazwa;
-				int wiek;
-				double cena
-		void wyswietl_wartosci_pol(){
-		system.out.println ("nazwa: "+ nazwa);
-		system.out.println ("wiek: "+ wiek);
-		system.out.println ("cena "+ cena);
-			
+        cKomputer 
+        string GetNazwa();
+	double GetCena();
+	int GetWiek();
+	void Wypisz();
+
+	
 		
 	cin.ignore();
 	getchar();
