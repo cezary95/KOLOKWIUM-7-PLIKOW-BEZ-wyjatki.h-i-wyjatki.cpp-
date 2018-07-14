@@ -2,6 +2,8 @@
 #include "cKomputer.h"
 using namespace std;
 
+int main() {
+	
 cKomputer komputer;
 komputer.setNazwa();
 void cKomputer::setNazwa(string k);
@@ -17,9 +19,6 @@ void cKomputer::setWiek(int w)
 
 komputer.Wypisz()
 void cKomputer::Wypisz()
-
-
-int main() {
 
 	cin.ignore();
 	getchar();
